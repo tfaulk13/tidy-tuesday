@@ -67,7 +67,7 @@ p_retirement <- ggplot(retirement, aes(x = year, y = retirement, color = race)) 
   scale_y_continuous(expand = c(0,0),
                      labels = comma) +
   tt_theme +
-  labs(title = 'Retirement Savings')
+  labs(title = 'Average Retirement Savings')
 
 # Avg student loan debt
 p_student_debt <- ggplot(student_debt, aes(x = year, y = loan_debt, color = race)) +
